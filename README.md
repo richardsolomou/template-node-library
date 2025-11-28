@@ -1,4 +1,4 @@
-# @ras-sh/template-node-library
+# template-node-library
 
 📦 Node.js library template with TypeScript, testing setup, and modern build tooling.
 

@@ -1,23 +1,28 @@
 {
-  "name": "@ras-sh/template-node-library",
-  "version": "0.0.2",
+  "name": "template-node-library",
+  "version": "0.0.3",
   "type": "module",
   "description": "Template for Node.js library projects.",
-  "keywords": [],
-  "homepage": "https://ras.sh",
+  "keywords": [
+    "node",
+    "library",
+    "typescript",
+    "template"
+  ],
+  "homepage": "https://solomou.dev",
   "bugs": {
-    "url": "https://github.com/ras-sh/template-node-library/issues",
-    "email": "hi@ras.sh"
+    "url": "https://github.com/richardsolomou/template-node-library/issues",
+    "email": "richard@solomou.dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ras-sh/template-node-library"
+    "url": "https://github.com/richardsolomou/template-node-library"
   },
   "license": "MIT",
   "author": {
     "name": "Richard Solomou",
-    "email": "hi@ras.sh",
-    "url": "https://ras.sh"
+    "email": "richard@solomou.dev",
+    "url": "https://solomou.dev"
   },
   "exports": {
     ".": {
@@ -50,15 +55,15 @@
     "changeset:publish": "pnpm build && changeset publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.2",
-    "@changesets/cli": "^2.29.7",
+    "@biomejs/biome": "^2.3.8",
+    "@changesets/cli": "^2.29.8",
     "@ras-sh/typescript-config": "^0.0.3",
-    "@types/node": "^24.9.2",
-    "@vitest/coverage-v8": "^4.0.4",
-    "lefthook": "^2.0.1",
-    "tsdown": "^0.15.11",
+    "@types/node": "^24.10.1",
+    "@vitest/coverage-v8": "^4.0.14",
+    "lefthook": "^2.0.4",
+    "tsdown": "0.17.0-beta.1",
     "typescript": "^5.9.3",
-    "ultracite": "6.0.5",
-    "vitest": "^4.0.4"
+    "ultracite": "6.3.8",
+    "vitest": "^4.0.14"
   }
 }
