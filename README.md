@@ -25,18 +25,18 @@ pnpm dev
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Run with tsx in watch mode |
-| `pnpm build` | Build library with tsdown |
-| `pnpm test` | Run tests with vitest |
-| `pnpm test:coverage` | Run tests with coverage report |
-| `pnpm check-types` | Run TypeScript type checking |
-| `pnpm check` | Run linter checks |
-| `pnpm fix` | Auto-fix linting issues |
-| `pnpm changeset` | Create a new changeset |
+| Command                  | Description                         |
+| ------------------------ | ----------------------------------- |
+| `pnpm dev`               | Run with tsx in watch mode          |
+| `pnpm build`             | Build library with tsdown           |
+| `pnpm test`              | Run tests with vitest               |
+| `pnpm test:coverage`     | Run tests with coverage report      |
+| `pnpm check-types`       | Run TypeScript type checking        |
+| `pnpm check`             | Run linter checks                   |
+| `pnpm fix`               | Auto-fix linting issues             |
+| `pnpm changeset`         | Create a new changeset              |
 | `pnpm changeset:version` | Update versions based on changesets |
-| `pnpm changeset:publish` | Build and publish to npm |
+| `pnpm changeset:publish` | Build and publish to npm            |
 
 ## Project Structure
 
@@ -60,7 +60,7 @@ tests/
 This template includes automated GitHub Actions workflows:
 
 - **CI Workflow** - Runs on every PR and push to main
-  - Linting with Biome
+  - Formatting with Oxfmt and linting with Oxlint
   - Type checking with TypeScript
   - Unit tests with Vitest
   - Build verification
@@ -84,9 +84,11 @@ This template uses [Changesets](https://github.com/changesets/changesets) for ve
 ### Manual Release
 
 1. **Create a changeset** when you make changes:
+
    ```bash
    pnpm changeset
    ```
+
    Follow the prompts to describe your changes (patch, minor, or major).
 
 2. **Commit and push your changes** including the changeset file
