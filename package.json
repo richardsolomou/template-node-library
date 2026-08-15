@@ -53,7 +53,7 @@
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:publish": "pnpm build && changeset publish",
-    "policy:check": "ras-stack-policy check"
+    "policy:check": "ras policy check"
   },
   "devDependencies": {
     "@changesets/cli": "^2.31.1",
@@ -63,7 +63,7 @@
     "oxfmt": "^0.62.0",
     "oxlint": "^1.77.0",
     "oxlint-tsgolint": "^7.0.2001",
-    "ras-stack": "^0.8.2",
+    "ras-stack": "^0.39.1",
     "tsdown": "0.22.14",
     "typescript": "^7.0.2",
     "vitest": "^4.1.10"
